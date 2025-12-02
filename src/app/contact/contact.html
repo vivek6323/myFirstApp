@@ -1,0 +1,10 @@
+<p>contact works!</p>
+<button (click)="GotoAbout()">Navigate to Abput Page</button>
+<app-viewchild></app-viewchild>
+<div appApphighlightdirective>directive Called</div>
+
+<a [routerLink]="['/contact',1,'Mouli']">Mouli</a><br>
+<a [routerLink]="['/contact',2,'jam']">Jam</a><br>
+<a [routerLink]="['/contact',3,'pen']">Pen</a>
+
+<router-outlet></router-outlet> 
