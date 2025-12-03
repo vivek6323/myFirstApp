@@ -9,6 +9,7 @@ import { ReactiveForm } from './reactive-form/reactive-form';
 import { Dynamicform } from './dynamicform/dynamicform';
 import { FormBuilder } from '@angular/forms';
 import { Formbuilderexample } from './formbuilderexample/formbuilderexample';
+import { Pipeexample } from './pipeexample/pipeexample';
 
 export const routes: Routes = [
 {path:"", component:App},
@@ -18,7 +19,8 @@ export const routes: Routes = [
 {path:"templatedrivenforms", component:TemplateForm},
 {path:"reactiveforms", component:ReactiveForm},
 {path:"dynamicforms", component:Dynamicform},
-{path:"formbuilderexample", component:Formbuilderexample}
+{path:"formbuilderexample", component:Formbuilderexample},
+{path:"pipe", component:Pipeexample}
 
 
 ];
